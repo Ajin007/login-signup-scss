@@ -1,0 +1,23 @@
+.form-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25%;
+
+
+}
+.login-form,.signup-form{
+    max-width: 300px;
+    padding: 2%;
+    background-color: rgb(162, 162, 162);
+    border: 1px solid rgb(33, 33, 33);
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: $font-family;
+    margin: 0 10px;
+}
+
+.login-from,.signup-form{
+
+    border-color: $primary-color;
+
+}
